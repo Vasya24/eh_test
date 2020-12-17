@@ -1,0 +1,115 @@
+section.top {
+  background-image: url("img/bg.png");
+  background-size: cover;
+  height: 100vh;
+  header {
+    display: flex;
+    position: relative;
+    top: 3%;
+    left: 4.6%;
+    height: 7.8vh;
+    width: 95.5vw;
+    nav {
+      position: relative;
+      left: 12%;
+      display: flex;
+      justify-content: space-between;
+      width: 55.7%;
+      @media (max-width: 1500px) {
+        width: 60%;
+        font-size: .85em;
+      }
+      ul {
+        display: flex;
+        width: 100%;
+        li {
+          display: inline;
+          line-height: 117.2%;
+          position: relative;
+          top: 42.2%;
+          font-family: "Roboto", sans-serif;
+          box-sizing: border-box;
+          &:hover {
+            border-bottom: 4px solid #F6E96D;
+          }
+          &:nth-child(1)::before {
+            content: '';
+            background-image: url("img/arrowdown.png");
+            background-size: cover;
+            display: block;
+            position: absolute;
+            left: -30px;
+            top: 3px;
+            width: 20px;
+            height: 9.97px;
+            cursor: pointer;
+          }
+          &:nth-child(n+2) {
+            margin-left: 2.9%;
+          }
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+    p.address {
+      position: relative;
+      width: 23.1%;
+      left: 12%;
+      text-align: right;
+      word-wrap: break-word;
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+      font-weight: 700;
+      span {
+        font-weight: 300;
+        line-height: 18.2%;
+      }
+    }
+    @media (max-width: 1500px) {
+      left: 1%;
+      font-size: .75em;
+    }
+  }
+  h1 {
+    position: relative;
+    top: 16%;
+    color: #fff;
+    text-align: center;
+    font-size: 9em;
+    span {
+      color: #F6E963;
+    }
+    @media (max-width: 1500px) {
+      font-size: 6em;
+    }
+  }
+  p.cursive {
+    font-family: "Caveat", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 2.7em;
+    position: relative;
+    top: 30%;
+    left: 30.3vw;
+    width: 34.9vw;
+    display: flex;
+    flex-wrap: wrap;
+    #arrowcurved {
+      position: absolute;
+      top: 79.5%;
+      right: 15%;
+    }
+  }
+  .transfer {
+    position: absolute;
+    bottom: 0;
+    background-image: url("img/transfer.png");
+    width: 100vw;
+    height: 16.9%;
+    background-size: cover;
+  }
+}
+
+

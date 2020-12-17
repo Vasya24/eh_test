@@ -1,0 +1,79 @@
+section.booking {
+  .dates {
+    position: relative;
+    width: 47.2%;
+    top: 44px;
+    left: 27.2%;
+
+    h1 {
+      font-family: "Amatic SC", sans-serif;
+      font-size: 4.5em;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      .arrival input, .departure label {
+        display: block;
+      }
+      .type {
+        input[type="radio"] {
+          appearance: none;
+          & + label {
+            opacity: .45;
+            cursor: pointer;
+          }
+        &:checked + label {
+          opacity: 1;
+        }
+        }
+      }
+      input[type="submit"] {
+        position: relative;
+        width: 234px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        background-color: #F6E96D;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+    }
+  }
+  .advantage {
+    display: flex;
+    justify-content: space-between;
+
+    &_icon-block {
+      text-align: center;
+      h1 {
+        font-size: 4.5em
+      }
+      p {
+        font-family: Montserrat, sans-serif;
+        font-size: 1.5em
+      }
+    }
+    &_icon-block:nth-child(even) {
+      position: relative;
+      top: 170px;
+      right: 15.2%;
+      max-width: 22.3%;
+    }
+    &_icon-block:nth-child(odd) {
+      position: relative;
+      top: 170px;
+      left: 153px;
+      max-width: 16.5%;
+    }
+  }
+  .transfer {
+    position: relative;
+    bottom: 0;
+    background-image: url("img/transfer-2.png");
+    width: 100vw;
+    background-size: cover;
+  }
+}

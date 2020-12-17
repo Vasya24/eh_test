@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/eh_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/activities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/booking.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/conditions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/Montserrat.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/amaticsc.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/caveat.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/roboto.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/activities/banquet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/activities/bbq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/activities/beach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/activities/dinner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/activities/fishing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/activities/hunting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/activities/quadros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/activities/tours.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/advantages/banya-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/advantages/banya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/advantages/house-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/advantages/house-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/advantages/steeringwheel-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/advantages/woods-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/advantages/woods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/advantages/yacht.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/arrowcurved.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/arrowdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/bg_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/bathroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/bed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/conditioner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/fireplace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/hotwater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/patio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/shower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/toilet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/conditions/wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/boat_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/boat_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/gun_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/gun_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/museum_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/museum_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/woods_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/woods_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/play_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/send_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/send_passive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/socials/Facebook_focused.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/socials/Facebook_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/socials/Instagram_focused.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/socials/Instagram_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/socials/vk_focused.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/socials/vk_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/transfer-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/transfer-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/transfer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/tours.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lmqFcgOQIt0wEtH6TD8yj8NTTf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="" />
+      <created>1608212511532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608212511532</updated>
+      <workItem from="1608212512810" duration="1248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Continue from where I stopped in previous project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue from where I stopped in previous project" />
+  </component>
+</project>
