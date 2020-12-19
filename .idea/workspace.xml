@@ -2,13 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/img/arrowleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/arrowright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/gallery/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/maptags/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/transfer-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/transfer-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/img/transfer-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/activities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/booking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/booking.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/conditions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/conditions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/tours.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/tours.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608212511532</updated>
-      <workItem from="1608212512810" duration="1923000" />
+      <workItem from="1608212512810" duration="50671000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -55,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608214119842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Linter's warnings fixed">
+      <created>1608214970124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608214970124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Continue from where I stopped in previous project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continue from where I stopped in previous project" />
+    <MESSAGE value="Linter's warnings fixed" />
+    <MESSAGE value="A lot of things done" />
+    <option name="LAST_COMMIT_MESSAGE" value="A lot of things done" />
   </component>
 </project>

@@ -13,15 +13,29 @@ section.booking {
 
     form {
       display: flex;
-      .arrival input, .departure label {
-        display: block;
+      .arrival > label, .departure > label {
+        font-family: Roboto, sans-serif;
+        font-weight: 700;
+      }
+      .arrival > input, .departure > input {
+        border: none;
+        border-radius: 25px;
+        background-color: #C4C4C4;
       }
       .type {
+        h6 {
+          font-family: Roboto, sans-serif;
+          font-weight: 700;
+        }
         input[type="radio"] {
           appearance: none;
+
           & + label {
             opacity: .45;
             cursor: pointer;
+            font-family: Roboto, sans-serif;
+            font-weight: 700;
+
           }
         &:checked + label {
           opacity: 1;
@@ -38,6 +52,7 @@ section.booking {
         font-family: Montserrat, sans-serif;
         font-weight: 600;
         line-height: 1.2;
+        cursor: pointer;
       }
 
     }
@@ -45,35 +60,37 @@ section.booking {
   .advantage {
     display: flex;
     justify-content: space-between;
-
+    img {
+      width: 60%
+    }
     &_icon-block {
       text-align: center;
       h1 {
-        font-size: 4.5em
+        font-size: 3em
       }
       p {
         font-family: Montserrat, sans-serif;
-        font-size: 1.5em
+        font-size: 1em
       }
     }
     &_icon-block:nth-child(even) {
       position: relative;
-      top: 170px;
-      right: 15.2%;
+      top: 130px;
+      right: 15%;
       max-width: 22.3%;
     }
     &_icon-block:nth-child(odd) {
       position: relative;
-      top: 170px;
+      top: 150px;
       left: 153px;
       max-width: 16.5%;
     }
   }
   .transfer {
-    position: relative;
-    bottom: 0;
+    position: absolute;
     background-image: url("img/transfer-2.png");
     width: 100vw;
+    height: 152px;
     background-size: cover;
   }
 }

@@ -1,0 +1,126 @@
+.pricing {
+  background-color: #FFF2E3;
+  height: 91.8vh;
+  .transfer-top {
+    background-image: url("img/transfer-4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 18.5%;
+    position: relative;
+    top: 0;
+  }
+  h1 {
+    font-size: 4em;
+    line-height: 1.25;
+    //padding-left: 15.5%;
+    position: relative;
+    left: 15.5%;
+  }
+  &-container {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    position: relative;
+    top: 8.5%;
+    left: 13%;
+    max-width: 69%;
+    justify-content: space-between;
+    .familyhouses > .fh-table > caption, .guestrooms > .gr-table > caption {
+      font-weight: 700;
+      font-size: 1.5em;
+      line-height: 1.5;
+      text-align: left;
+    }
+    .familyhouses, .guestrooms {
+      .price {
+        font-weight: 300;
+        font-size: 1.5em;
+        line-height: 1.5;
+      }
+      .timing {
+        font-weight: 700;
+        font-size: 1.25em;
+        line-height: 1.5;
+      }
+      .range {
+        font-size: 1.125em;
+        line-height: 1.5;
+      }
+      .week {
+        td {
+          font-weight: 600;
+          text-align: center;
+          width: 14.2%;
+          &.day-off {
+            color: #ECCD2C;
+          }
+        }
+      }
+    }
+
+      form {
+        .calendars {
+          display: flex;
+          justify-content: space-between;
+          .arrival > input, .departure > input {
+            display: block;
+            border: none;
+            border-radius: 25px;
+            background-color: #C4C4C4;
+          }
+          .arrival > label, .departure > label {
+            font-family: Montserrat, sans-serif;
+            font-size: .85em;
+            font-weight: 700;
+            line-height: 1.2;
+          }
+        }
+        .type {
+          position: relative;
+          top: 27.6%;
+          h6 {
+            font-family: Montserrat, sans-serif;
+            font-size: .85em;
+            font-weight: 700;
+            line-height: 1.2;
+          }
+          input[type="radio"] {
+            appearance: none;
+
+            & + label {
+              opacity: .45;
+              cursor: pointer;
+              font-family: Montserrat, sans-serif;
+              font-size: 1.25em;
+              display: block;
+            }
+            &:checked + label {
+              opacity: 1;
+            }
+          }
+        }
+        input[type="submit"] {
+          position: relative;
+          top: 32.4%;
+          width: 98.7%;
+          height: 21.6%;
+          border: none;
+          border-radius: 25px;
+          background-color: #F6E96D;
+          font-family: Montserrat, sans-serif;
+          font-weight: 600;
+          line-height: 1.2;
+          cursor: pointer;
+        }
+      }
+    }
+  .transfer-bottom {
+    background-image: url("img/transfer-5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 21.2%;
+    position: relative;
+    bottom: -19%;
+  }
+  }

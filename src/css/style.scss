@@ -1,5 +1,5 @@
-@import 'top';
-@import 'booking';
+@import "top";
+@import "booking";
 @import "activities";
 @import "conditions";
 @import "pricing";
@@ -35,4 +35,35 @@ li {
 }
 h1 {
   font-family: "Amatic SC", sans-serif;
+}
+
+#page-footer {
+  background-color: #424242;
+  .socials {
+    .socials-icons {
+      display: flex;
+      .icon {
+        width: 47px;
+        height: 47px;
+        &:nth-child(1) {
+          background-image: url("img/socials/vk_normal.png");
+          &:hover {
+            background-image: url("img/socials/vk_focused.png");
+          }
+        }
+        &:nth-child(2) {
+          background-image: url("img/socials/Facebook_normal.png");
+          &:hover {
+            background-image: url("img/socials/Facebook_focused.png");
+          }
+        }
+        &:nth-child(3) {
+          background-image: url("img/socials/Instagram_normal.png");
+          &:hover {
+            background-image: url("img/socials/Instagram_focused.png");
+          }
+        }
+      }
+    }
+  }
 }
