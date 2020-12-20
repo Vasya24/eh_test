@@ -39,30 +39,102 @@ h1 {
 
 #page-footer {
   background-color: #424242;
+  height: 26vh;
+  display: flex;
+  padding-left: 15.5%;
+  padding-right: 15.5%;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    height: 44.2%;
+  }
+
   .socials {
+    position: relative;
+    width: 12.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
     .socials-icons {
       display: flex;
+      width: 100%;
+      justify-content: space-between;
+
       .icon {
         width: 47px;
         height: 47px;
+        cursor: pointer;
+
         &:nth-child(1) {
           background-image: url("img/socials/vk_normal.png");
+
           &:hover {
             background-image: url("img/socials/vk_focused.png");
           }
         }
+
         &:nth-child(2) {
           background-image: url("img/socials/Facebook_normal.png");
+
           &:hover {
             background-image: url("img/socials/Facebook_focused.png");
           }
         }
+
         &:nth-child(3) {
           background-image: url("img/socials/Instagram_normal.png");
+
           &:hover {
             background-image: url("img/socials/Instagram_focused.png");
           }
         }
+      }
+    }
+
+    span {
+      display: inline-block;
+      width: 100%;
+      font-family: Montserrat, sans-serif;
+      font-size: 0.75em;
+      color: #fff;
+      line-height: 1.2;
+      padding-top: 9.2%;
+    }
+  }
+
+  #subscribe {
+    label {
+      font-family: Montserrat, sans-serif;
+      font-size: 0.9em;
+      color: #fff;
+      display: block;
+      margin-bottom: 8.7%
+    }
+
+    input {
+      font-family: Montserrat, sans-serif;
+      font-size: 0.9em;
+      background-color: #C4C4C4;
+      border: none;
+      line-height: 38px;
+      padding-left: 1%;
+    }
+
+    .mail-icon {
+      height: 38px;
+      width: 50px;
+      background-color: #F6E96D;
+      position: relative;
+      bottom: 38px;
+      left: 205px;
+      cursor: pointer;
+      img {
+        position: relative;
+        top: 10.75px;
+        left: 14px;
       }
     }
   }

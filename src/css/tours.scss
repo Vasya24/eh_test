@@ -1,24 +1,51 @@
 .tours {
-  height: 100vh;
+  height: 136.3vh;
   background-color: #FFF2E3;
+  .transfer {
+    background-image: url('img/transfer-6.png');
+    height: 16%;
+  }
+  h1 {
+    position: relative;
+    left: 15.5%;
+    font-size: 4em;
+  }
   &-box {
     display: flex;
+    position: relative;
+    left: 15.5%;
+    top: 4.5%;
+    width: 68.8%;
+    height: 63.5%;
     #map {
-      width: 640px;
-      height: 480px;
+      position: relative;
+      width: 619.2px;
+      height: 100%
     }
     .map-descriptor {
+      width: 37.5%;
       .map-pic {
         box-sizing: border-box;
         border: 1px dotted black;
-        height: 50%;
-        width: 100px;
+        height: 69.3%;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
       .map-text {
         box-sizing: border-box;
         border: 1px dotted black;
-        height: 50%;
-        width: 100px;
+        height: 30.7%;
+        background-color: #fff;
+        font-family: Montserrat, sans-serif;
+        padding-left: 6.9%;
+        padding-top: 9.6%;
+        h6 {
+          font-size: 1.5em;
+          line-height: 1.4;
+        }
+        span {
+          line-height: 1.2;
+        }
       }
     }
   }

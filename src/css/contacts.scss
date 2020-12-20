@@ -1,9 +1,50 @@
 .contacts {
   background-color: #647761;
+  height: 124.9vh;
+  display: flex;
+  &-left {
+    color: #fff;
+    position: relative;
+    left: 15.5%;
+    top: 17.4%;
+    width: 16.3%;
+    height: 73.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+      font-size: 4em;
+      line-height: 1.2;
+    }
+    div {
+      font-family: Montserrat, sans-serif;
+      line-height: 1.2;
+      h6 {
+        font-size: 1.25em;
+        font-weight: 700
+      }
+    }
+    input {
+      height: 3.1%;
+      width: 57.7%;
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      border: none;
+      border-radius: 25px;
+      background-color: #F6E96D;
+      cursor: pointer;
+    }
+  }
   &-right {
+    width: 39.8%;
+    height: 73.5%;
+    position: relative;
+    left: 18.7%;
+    top: 17.4%;
+    border: 1px dotted black;
     #map-contacts {
-      width: 764px;
-      height: 726px;
+      position: relative;
+      height: 100%
     }
   }
 }
