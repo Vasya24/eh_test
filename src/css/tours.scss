@@ -1,9 +1,10 @@
 .tours {
-  height: 136.3vh;
+  height: 108.1vh;
   background-color: #FFF2E3;
   .transfer {
     background-image: url('img/transfer-6.png');
     height: 16%;
+    background-repeat: no-repeat;
   }
   h1 {
     position: relative;
@@ -16,7 +17,7 @@
     left: 15.5%;
     top: 4.5%;
     width: 68.8%;
-    height: 63.5%;
+    height: 684px;
     #map {
       position: relative;
       width: 619.2px;
@@ -24,27 +25,32 @@
     }
     .map-descriptor {
       width: 37.5%;
+      height: 100%;
       .map-pic {
         box-sizing: border-box;
-        border: 1px dotted black;
-        height: 69.3%;
+        border: 1px solid black;
+        height: 474px;
         background-size: cover;
+        background-position: center center;
         background-repeat: no-repeat;
       }
       .map-text {
-        box-sizing: border-box;
-        border: 1px dotted black;
-        height: 30.7%;
+        height: 210px;
         background-color: #fff;
         font-family: Montserrat, sans-serif;
+        position: relative;
         padding-left: 6.9%;
-        padding-top: 9.6%;
+
         h6 {
           font-size: 1.5em;
           line-height: 1.4;
+          position: relative;
+          top: 9.6%
         }
         span {
           line-height: 1.2;
+          position: relative;
+          top: 9.6%
         }
       }
     }

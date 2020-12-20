@@ -6,25 +6,28 @@
     height: 47.2%;
     position: relative;
     top: 10.9%;
-    left: 4.55%;
-    width: 91.1%;
+    left: 15.5%;
+    width: 69%;
     .left {
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
       h1 {
         font-size: 4em;
         line-height: 2;
-        position: relative;
-        top: 12.8%;
+        //position: relative;
+        //top: 12.8%;
       }
       p {
         font-family: Montserrat, sans-serif;
         font-size: 1.5em;
-        position: relative;
-        top: 11%;
+        //position: relative;
+        //top: 11%;
       }
       input {
-        position: relative;
-        top: 14.8%;
+        //position: relative;
+        //top: 14.8%;
         width: 38.1%;
         height: 7.4%;
         border: none;
@@ -37,6 +40,7 @@
       }
     }
     .right {
+      position: relative;
       box-sizing: border-box;
       border-left: 2px solid rgba(0, 0, 0, 0.6);
       width: 60%;
@@ -56,12 +60,13 @@
   &-gallery {
     position: relative;
     top: 3.2%;
-    left: 4.05%;
+    left: 15.5%;
     display: flex;
-    width: 91.9%;
+    width: 69%;
     height: 22.4%;
     justify-content: space-between;
     img {
+      position: relative;
       width: 23.9%
     }
   }

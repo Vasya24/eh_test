@@ -37,6 +37,11 @@ h1 {
   font-family: "Amatic SC", sans-serif;
 }
 
+section {
+  max-width: 100vw;
+  overflow: hidden
+}
+
 #page-footer {
   background-color: #424242;
   height: 26vh;

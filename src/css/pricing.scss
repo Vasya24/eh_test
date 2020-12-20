@@ -1,14 +1,13 @@
 .pricing {
   background-color: #FFF2E3;
-  height: 91.8vh;
+  height: 72.2vh;
   .transfer-top {
     background-image: url("img/transfer-4.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
     height: 18.5%;
-    position: relative;
-    top: 0;
+    position: absolute;
   }
   h1 {
     font-size: 4em;
@@ -16,12 +15,13 @@
     //padding-left: 15.5%;
     position: relative;
     left: 15.5%;
+    top: 18.6%;
   }
   &-container {
     display: flex;
     font-family: Montserrat, sans-serif;
     position: relative;
-    top: 8.5%;
+    top: 18.6% + 8.5%;
     left: 13%;
     max-width: 69%;
     justify-content: space-between;
@@ -121,6 +121,6 @@
     width: 100vw;
     height: 21.2%;
     position: relative;
-    bottom: -19%;
+    top: 48%;
   }
   }

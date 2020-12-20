@@ -38,11 +38,32 @@ initMap();
 
 // Setting picture and description switching
 let picBox = document.querySelector('.map-pic');
+let textHead = document.querySelector('.map-text > h6');
+let text = document.querySelector('.map-text > span');
 
 google.maps.event.addListener(museumMark, 'click', function() {
   picBox.style.backgroundImage = 'url("src/css/img/activities/tours.png")'
-  museumMark.icon = 'src/css/img/maptags/museum_selected.png'
-})
+  textHead.textContent = 'Музей деда Талаша'
+  text.textContent = 'Музей деда Талаша Музей национального героя Деда Талашаи партизанского движения на Петриковщине.'
+});
+
+google.maps.event.addListener(boatMark, 'click', function(e) {
+  picBox.style.backgroundImage = 'url("src/css/img/activities/fishing.png")'
+  textHead.textContent = 'Пристань на реке Припять'
+  text.textContent = 'Здесь у вас будет возможность искупаться или порыбачить'
+});
+
+google.maps.event.addListener(gunMark, 'click', function(e) {
+  picBox.style.backgroundImage = 'url("src/css/img/activities/hunting.png")'
+  textHead.textContent = 'Охотничья база'
+  text.textContent = 'Легальная охота рядом с местом вашего отдыха. Только при наличии охотничьего билета'
+});
+
+google.maps.event.addListener(woodsMark, 'click', function(e) {
+  picBox.style.backgroundImage = 'url("src/css/img/activities/quadros.png")'
+  textHead.textContent = 'Лес'
+  text.textContent = 'Место для единения с природой, философских прогулок или катания на квадроциклах.'
+});
 
 // Setting mark in contacts section
 const defaultMark = new google.maps.Marker({
