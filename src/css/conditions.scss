@@ -8,22 +8,40 @@
     top: 10.9%;
     left: 15.5%;
     width: 69%;
+    @media(max-width: 1479px) {
+      height: 37.2%;
+    }
+    @media(max-width: 769px) {
+      flex-direction: column;
+      text-align: center;
+    }
     .left {
-      width: 40%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      @media(max-width: 769px) {
+        display: block;
+      }
       h1 {
         font-size: 4em;
         line-height: 2;
         //position: relative;
         //top: 12.8%;
+        @media(max-width: 769px) {
+          font-size: 2em;
+        }
       }
       p {
         font-family: Montserrat, sans-serif;
         font-size: 1.5em;
         //position: relative;
         //top: 11%;
+        @media(max-width: 769px) {
+          width: 47%;
+          font-size: 0.7em;
+          display: inline-block;
+        }
       }
       input {
         //position: relative;
@@ -37,6 +55,11 @@
         font-weight: 600;
         line-height: 1.2;
         cursor: pointer;
+        @media(max-width: 769px) {
+          display: inline-block;
+          width: 25.1%;
+          height: 23.4%;
+        }
       }
     }
     .right {
@@ -44,6 +67,10 @@
       box-sizing: border-box;
       border-left: 2px solid rgba(0, 0, 0, 0.6);
       width: 60%;
+      @media(max-width: 769px) {
+        border: none;
+        width: 100%;
+      }
       table {
         position: relative;
         left: 5%;
@@ -52,6 +79,9 @@
         td {
           font-family: Montserrat, sans-serif;
           font-size: 1.5em;
+          @media(max-width: 769px) {
+            font-size: 1em;
+          }
         }
 
       }
@@ -59,11 +89,11 @@
     }
   &-gallery {
     position: relative;
-    top: 3.2%;
+    top: 8.2%;
     left: 15.5%;
     display: flex;
     width: 69%;
-    height: 22.4%;
+    height: 19.8%;
     justify-content: space-between;
     img {
       position: relative;

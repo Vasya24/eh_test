@@ -1,15 +1,23 @@
 import './swiper'
 import './maps'
-import video from '../css/img/gallery/video.mp4'
 
 // Cancelling form default submitting
-// const bookForm = document.querySelector('form[data-id="dates-form"]');
-// bookForm.addEventListener('submit', (e) => {
-//   e.preventDefault();
-// });
+
 const forms = document.forms;
 
 for (let f of forms) {
   f.onsubmit = (e) => {e.preventDefault()}
 }
 
+
+
+let side = document.querySelector('.sidebar');
+let burg = document.querySelector('.burger');
+let close = document.querySelector('.close')
+burg.addEventListener('click', () => {
+  side.classList.add('active');
+})
+
+close.addEventListener('click', () => {
+  side.classList.remove('active')
+})

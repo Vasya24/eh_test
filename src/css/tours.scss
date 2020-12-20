@@ -1,6 +1,9 @@
 .tours {
   height: 108.1vh;
   background-color: #FFF2E3;
+  @media(max-width: 769px) {
+    height: 85.11vh
+  }
   .transfer {
     background-image: url('img/transfer-6.png');
     height: 16%;
@@ -18,14 +21,30 @@
     top: 4.5%;
     width: 68.8%;
     height: 684px;
+    @media(max-width: 769px) {
+      flex-direction: column;
+      width: 87.5%;
+      height: 67.56%;
+      left: 6.55%;
+    }
     #map {
       position: relative;
       width: 619.2px;
-      height: 100%
+      height: 100%;
+      @media(max-width: 769px) {
+        width: 100%;
+        height: 70.3%;
+      }
     }
     .map-descriptor {
       width: 37.5%;
       height: 100%;
+      display: flex;
+      @media(max-width: 769px) {
+        width: 100%;
+        height: 20.3%;
+        flex-direction: row-reverse;
+      }
       .map-pic {
         box-sizing: border-box;
         border: 1px solid black;
@@ -33,6 +52,10 @@
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
+        @media(max-width: 769px) {
+          height: 100%;
+          width: 45.14%;
+        }
       }
       .map-text {
         height: 210px;
@@ -40,7 +63,10 @@
         font-family: Montserrat, sans-serif;
         position: relative;
         padding-left: 6.9%;
-
+        @media(max-width: 769px) {
+          height: 100%;
+          width: 54.86%;
+        }
         h6 {
           font-size: 1.5em;
           line-height: 1.4;

@@ -1,7 +1,11 @@
 .contacts {
   background-color: #647761;
-  height: 124.9vh;
+  height: 988px;
   display: flex;
+  @media(max-width: 769px) {
+    height: 92.85vh;
+    display: block;
+  }
   &-left {
     color: #fff;
     position: relative;
@@ -12,13 +16,23 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media(max-width: 769px) {
+      height: 50.94%;
+      width: 70.3%;
+    }
     h1 {
       font-size: 4em;
       line-height: 1.2;
+      @media(max-width: 769px) {
+        font-size: 2em;
+      }
     }
     div {
       font-family: Montserrat, sans-serif;
       line-height: 1.2;
+      @media(max-width: 769px) {
+        font-size: 0.625em;
+      }
       h6 {
         font-size: 1.25em;
         font-weight: 700
@@ -41,7 +55,11 @@
     position: relative;
     left: 18.7%;
     top: 17.4%;
-    border: 1px dotted black;
+    @media(max-width: 769px) {
+      width: 100%;
+      left: 0;
+      height: 50.31%;
+    }
     #map-contacts {
       position: relative;
       height: 100%

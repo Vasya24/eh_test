@@ -5,6 +5,17 @@
     width: 47.2%;
     top: 44px;
     left: 27.2%;
+    @media(max-width: 768px) {
+      display: none;
+    }
+    @media(max-width: 1150px) {
+      width: 70%;
+      left: 17.2%;
+    }
+    @media(min-width: 769px) and (max-width: 1140px) {
+      width: 80%;
+      left: 13.2%
+    }
     h1 {
       font-family: "Amatic SC", sans-serif;
       font-size: 4.5em;
@@ -61,8 +72,14 @@
   .advantage {
     display: flex;
     justify-content: space-between;
+    @media(max-width: 769px) {
+      flex-wrap: wrap;
+    }
     img {
-      width: 60%
+      width: 60%;
+      @media(max-width: 769px) {
+        width: 80%;
+      }
     }
     &_icon-block {
       text-align: center;
@@ -79,19 +96,52 @@
       top: 227px;
       right: 15%;
       max-width: 22.3%;
+      @media(max-width: 1550px) {
+        top: 200px;
+      }
+      @media(max-width: 1300px) {
+        top: 180px;
+      }
+      @media(max-width: 1150px) {
+        top: 150px;
+      }
+      @media(max-width: 1086px) {
+        top: 100px;
+        h1 {
+          font-size: 2em
+        }
+        p {
+          font-size: 0.75em;
+        }
+      }
+      @media(max-width: 769px) {
+        right: -30%;
+      }
     }
     &_icon-block:nth-child(odd) {
       position: relative;
       top: 282px;
       left: 153px;
       max-width: 16.5%;
+      @media(max-width: 1150px) {
+        top: 132px;
+      }
+      @media(max-width: 1086px) {
+        top: 100px;
+        h1 {
+          font-size: 2em
+        }
+        p {
+          font-size: 0.75em;
+        }
+      }
     }
   }
   .transfer {
     position: absolute;
     background-image: url("img/transfer-2.png");
     width: 100vw;
-    height: 152px;
+    height: 30px;
     background-size: cover;
   }
 }

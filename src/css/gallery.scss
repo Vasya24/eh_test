@@ -12,9 +12,14 @@
     left: 15.5%;
     top: 10.5% + 6.9%;
     display: flex;
-    width: 1324px;
+    width: 69%;
     height: 640px;
     justify-content: space-between;
+    @media(max-width: 1479px) {
+      & > img {
+        width: 50%;
+      }
+    }
     .video-and-pic {
       width: 49.2%;
       display: flex;
@@ -22,6 +27,14 @@
       justify-content: space-between;
       video, img {
         height: 49.2%;
+      }
+      @media(max-width: 1479px) {
+        video {
+          height: 37%
+        }
+        img {
+          height: 62%;
+        }
       }
     }
   }

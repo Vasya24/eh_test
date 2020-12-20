@@ -62,7 +62,9 @@ section {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-
+    @media(max-width: 1479px) {
+      width: 203px
+    }
     .socials-icons {
       display: flex;
       width: 100%;

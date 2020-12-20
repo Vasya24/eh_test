@@ -1,6 +1,9 @@
 .pricing {
   background-color: #FFF2E3;
   height: 72.2vh;
+  @media(max-width: 769px) {
+    height: 140.58vh;
+  }
   .transfer-top {
     background-image: url("img/transfer-4.png");
     background-size: contain;
@@ -25,6 +28,9 @@
     left: 13%;
     max-width: 69%;
     justify-content: space-between;
+    @media(max-width: 769px) {
+      flex-direction: column;
+    }
     .familyhouses > .fh-table > caption, .guestrooms > .gr-table > caption {
       font-weight: 700;
       font-size: 1.5em;
@@ -57,16 +63,27 @@
         }
       }
     }
-
+    .guestrooms {
+      @media(max-width: 769px) {
+        margin-top: 5.42%;
+      }
+    }
       form {
+        @media(max-width: 769px) {
+          margin-top: 6.85%;
+        }
         .calendars {
           display: flex;
           justify-content: space-between;
+          @media(max-width: 769px) {
+            width: 40%;
+          }
           .arrival > input, .departure > input {
             display: block;
             border: none;
             border-radius: 25px;
             background-color: #C4C4C4;
+
           }
           .arrival > label, .departure > label {
             font-family: Montserrat, sans-serif;
@@ -111,6 +128,9 @@
           font-weight: 600;
           line-height: 1.2;
           cursor: pointer;
+          @media(max-width: 769px) {
+            width: 40%;
+          }
         }
       }
     }
@@ -121,6 +141,6 @@
     width: 100vw;
     height: 21.2%;
     position: relative;
-    top: 48%;
+    top: 52%;
   }
   }
