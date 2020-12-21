@@ -1,9 +1,15 @@
-section.activities {
+.activities {
   background-color: rgba(255, 233, 206, 0.58);
   text-align: center;
   padding-top: 40px;
+  //@media(min-width: 320px) and (max-width: 769px) {
+  //  heigth: 148.47vh;
+  //}
   h1 {
     font-size: 4.5em;
+    @media (min-width: 320px) and (max-width: 768px) {
+      font-size: 3em;
+    }
   }
   .cards {
     display: flex;
@@ -31,6 +37,13 @@ section.activities {
       @media(max-width: 1479px) {
         width: 220px;
       }
+      @media (min-width: 320px) and (max-width: 768px) and (max-height:1024px) {
+        width: 47%;
+        height: 250px
+      }
+      @media(max-height: 768px) {
+        width: 160px
+      }
 
       div {
         position: relative;
@@ -39,10 +52,16 @@ section.activities {
         word-wrap: break-word;
         font-family: Montserrat, sans-serif;
         font-size: 1.125em;
+        @media (min-width: 320px) and (max-width: 768px) {
+          font-size: 0.625em;
+        }
         h6 {
           font-weight: 700;
           font-size: 1.25em;
           line-height: 2;
+          @media (min-width: 320px) and (max-width: 768px) {
+            font-size: 0.625em;
+          }
         }
       }
     }

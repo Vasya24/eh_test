@@ -13,6 +13,10 @@
     position: relative;
     left: 15.5%;
     font-size: 4em;
+    @media(min-width: 320px) and (max-width: 769px) {
+      left: 0;
+      text-align: center;
+    }
   }
   &-box {
     display: flex;

@@ -72,7 +72,7 @@
   }
   .advantages {
     position: relative;
-
+    margin-bottom: 3.92%;
     .advantage {
       display: flex;
       position: relative;
@@ -91,7 +91,8 @@
       &:nth-child(even) {
         flex-direction: row-reverse;
         .adv-block {
-          display: flex;
+          //display: flex;
+
           left: 20%;
           @media(max-width: 1439px) {
             left: 10%;
@@ -113,23 +114,23 @@
       }
       &:nth-child(odd) {
         .adv-block {
-          display: flex;
+          //display: flex;
           right: 15%;
-          @media(max-width: 1439px) {
+          @media(min-width: 769px) and (max-width: 1439px) {
             right: 10%;
           }
-          @media(max-width: 769px) {
+          @media(max-width: 768px) {
             right: 0;
             display: flex;
             width: 87.5%;
           }
           img {
-            @media(max-width: 769px) {
+            @media(max-width: 768px) {
               display: flex;
               left: 8.44%;
               width: 50%;
-
             }
+
           }
         }
       }
@@ -148,8 +149,11 @@
         h1 {
           font-size: 4.5em;
           font-weight: 700;
-          @media(max-width: 1800px) {
+          @media(max-width: 1800px){
             font-size: 4em
+          }
+          @media (max-height: 768px) {
+            font-size: 2em;
           }
         }
         span {
@@ -157,6 +161,12 @@
           font-size: 1.5em;
           @media(max-width: 1800px) {
             font-size: 1em
+          }
+        }
+        img {
+          @media(min-width: 769px) {
+            width: 25%;
+            height: 25%;
           }
         }
       }
