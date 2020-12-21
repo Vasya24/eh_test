@@ -50,9 +50,18 @@ section {
   padding-right: 15.5%;
   justify-content: space-between;
   align-items: center;
-
+  @media(max-width: 769px) {
+    //display: block;
+    height: 27.15vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
   img {
     height: 44.2%;
+    //@media(max-width: 769px) {
+    //  width: 74px;
+    //  height: 50px;
+    //}
   }
 
   .socials {
@@ -113,6 +122,9 @@ section {
   }
 
   #subscribe {
+    @media(max-width: 769px) {
+      display: none;
+    }
     label {
       font-family: Montserrat, sans-serif;
       font-size: 0.9em;

@@ -5,15 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/activities.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/booking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/booking.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/conditions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/conditions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/pricing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/top.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/tours.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/tours.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608212511532</updated>
       <workItem from="1608212512810" duration="50691000" />
-      <workItem from="1608441708947" duration="38383000" />
+      <workItem from="1608441708947" duration="49573000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -101,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608475671436</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Warning commit">
+      <created>1608498979480</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608498979480</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +128,7 @@
     <MESSAGE value="A lot of things done" />
     <MESSAGE value="Layout done. Positioning left to do." />
     <MESSAGE value="Positioning for 1920px width done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Positioning for 1920px width done" />
+    <MESSAGE value="Warning commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warning commit" />
   </component>
 </project>

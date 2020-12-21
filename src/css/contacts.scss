@@ -19,6 +19,8 @@
     @media(max-width: 769px) {
       height: 50.94%;
       width: 70.3%;
+      top: 8.95%;
+      left: 6.56%;
     }
     h1 {
       font-size: 4em;
@@ -47,6 +49,13 @@
       border-radius: 25px;
       background-color: #F6E96D;
       cursor: pointer;
+      @media(max-width: 769px) {
+        position: absolute;
+        width: 36.25%;
+        top: 115%;
+        z-index: 2;
+        left: 44%;
+      }
     }
   }
   &-right {
