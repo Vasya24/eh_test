@@ -1,6 +1,7 @@
-import Swiper from 'swiper'
-import 'swiper/swiper.scss'
-import 'swiper/components/navigation/navigation.scss'
+/* eslint-disable no-undef, no-unused-vars */
+import Swiper from 'swiper';
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
 
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 3,
