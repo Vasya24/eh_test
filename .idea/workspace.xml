@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/activities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/bookings.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/activities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/activities.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +64,7 @@
       <workItem from="1608441708947" duration="64605000" />
       <workItem from="1608619859593" duration="6418000" />
       <workItem from="1608699939429" duration="7738000" />
-      <workItem from="1608712970855" duration="2859000" />
+      <workItem from="1608712970855" duration="4808000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -146,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608700008874</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Stopped at activities section">
+      <created>1608721868563</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608721868563</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +180,7 @@
     <MESSAGE value="Linter fixed" />
     <MESSAGE value="Let's try this" />
     <MESSAGE value="Re-do entire project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Re-do entire project" />
+    <MESSAGE value="Stopped at activities section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stopped at activities section" />
   </component>
 </project>
