@@ -1,0 +1,48 @@
+.top {
+  height: 100vh;
+  background-image: url("img/bg.png");
+  background-size: cover;
+}
+.top > header {
+  margin: 30px 40px 160px 46px;
+  display: flex;
+  justify-content: space-between;
+}
+.top > header img {
+  width: 110px;
+  height: 71.35px;
+}
+.header-link {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+nav {
+  margin-left: 220px;
+}
+nav li {
+  display: inline;
+}
+nav li:nth-last-child(n+2) {
+  margin-right: 30px;
+}
+nav a {
+  color: #fff;
+}
+.address {
+  width: 424px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-align: right;
+  color: #fff;
+}
+.address > span:nth-child(1) {
+  font-weight: 700;
+}
+.top > h1 {
+
+}
+.top > h2 {
+  color: #fff;
+}

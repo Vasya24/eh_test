@@ -4,8 +4,7 @@
   "description": "Test task for Eternalhost",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
+    "scss": "node-sass --watch css -o css",
     "lint": "eslint .",
     "fix": "eslint . --fix"
   },
@@ -24,30 +23,18 @@
     "@babel/preset-env": "^7.9.0",
     "babel-jest": "^25.2.4",
     "babel-loader": "^8.1.0",
-    "css-loader": "^3.4.2",
     "eslint": "^7.12.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1",
-    "file-loader": "^6.2.0",
-    "html-loader": "^1.0.0",
-    "html-webpack-plugin": "^4.0.3",
-    "jsdoc": "^3.6.3",
-    "live-server": "^1.2.1",
-    "mini-css-extract-plugin": "^0.9.0",
-    "sass": "^1.27.0",
-    "sass-loader": "^10.0.4",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "jsdoc": "^3.6.3"
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "jsdom": "^16.4.0",
     "node-sass": "^4.14.1",
-    "style-loader": "^2.0.0",
-    "swiper": "^6.4.1"
+    "swiper": "^6.4.1",
+    "sass": "^1.30.0"
   },
   "homepage": "https://github.com/Vasya24/eh_test#readme"
 }
