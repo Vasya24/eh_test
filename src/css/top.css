@@ -41,8 +41,39 @@ nav a {
   font-weight: 700;
 }
 .top > h1 {
-
+  width: 1000px;
+  font-size: 144px;
+  line-height: 181.58px;
+  word-wrap: break-word;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto 135px auto;
+}
+.top > h1 > span {
+  color: #F6E96D;
 }
 .top > h2 {
+  font-family: Caveat, sans-serif;
+  font-size: 44px;
+  line-height: 55.44px;
+  text-align: center;
+  width: 670px;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
+.top h2 > img {
+  width: 36px;
+  height: 66px;
+  position: relative;
+  top: 55px;
+}
+/*.top .transfer {*/
+/*  background-image: url("img/transfer.png");*/
+/*  background-size: cover;*/
+/*  background-repeat: no-repeat;*/
+/*  position: absolute;*/
+/*  bottom: 0;*/
+/*  height: 152px;*/
+/*  z-index: 9;*/
+/*}*/

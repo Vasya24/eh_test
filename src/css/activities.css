@@ -1,0 +1,14 @@
+.activities {
+  background-color: rgba(255, 233, 206, 0.58);
+}
+.activities > h1 {
+  padding-top: 88.82px;
+  margin-bottom: 51px;
+  text-align: center;
+  font-size: 72px;
+  line-height: 90.79px;
+}
+.card {
+  width: 290px;
+  height: 473.97px;
+}
