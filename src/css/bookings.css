@@ -7,7 +7,7 @@
 }
 .bookings > header h1 {
   font-size: 72px;
-  line-height: 90.79px;
+  line-height: 91px;
   text-align: center;
   margin-bottom: 56px;
 }
@@ -25,7 +25,7 @@
   display: block;
   font-family: Roboto, sans-serif;
   font-size: 18px;
-  line-height: 21.09px;
+  line-height: 21px;
   font-weight: 700;
   margin-bottom: 11px;
 }
@@ -37,14 +37,14 @@
   border-radius: 32px;
   font-family: Roboto, sans-serif;
   font-size: 18px;
-  line-height: 21.09px;
+  line-height: 21px;
   vertical-align: middle;
   text-align: center;
 }
 label[for="familyhouse"], label[for="guestroom"] {
   font-family: Roboto, sans-serif;
   font-size: 18px;
-  line-height: 21.09px;
+  line-height: 21px;
   color: rgba(75, 75, 75, 0.4);
   cursor: pointer;
 }
@@ -59,14 +59,14 @@ label[for="familyhouse"], label[for="guestroom"] {
   background-color: #F6E96D;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
-  line-height: 21.94px;
+  line-height: 22px;
   font-weight: 600;
   margin-top: 24px;
 }
 .booking-grid {
   display: grid;
   grid-template-columns: auto auto;
-  margin-bottom: 72.94px;
+  margin-bottom: 73px;
 }
 .icon-block {
   display: flex;
@@ -90,6 +90,6 @@ label[for="familyhouse"], label[for="guestroom"] {
 .icon-block p {
   font-family: Montserrat, sans-serif;
   font-size: 24px;
-  line-height: 29.26px;
+  line-height: 29px;
   text-align: center;
 }

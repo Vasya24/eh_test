@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/conditions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/tours.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/activities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/activities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bookings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bookings.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/maps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +61,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +84,10 @@
       <workItem from="1608441708947" duration="64605000" />
       <workItem from="1608619859593" duration="6418000" />
       <workItem from="1608699939429" duration="7738000" />
-      <workItem from="1608712970855" duration="4808000" />
+      <workItem from="1608712970855" duration="4845000" />
+      <workItem from="1608791138381" duration="7441000" />
+      <workItem from="1608875736308" duration="5762000" />
+      <workItem from="1608989229428" duration="24749000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -150,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608721868563</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit for no reason">
+      <created>1608759590239</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608759590239</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +211,7 @@
     <MESSAGE value="Let's try this" />
     <MESSAGE value="Re-do entire project" />
     <MESSAGE value="Stopped at activities section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stopped at activities section" />
+    <MESSAGE value="Commit for no reason" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for no reason" />
   </component>
 </project>

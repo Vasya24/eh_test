@@ -1,0 +1,48 @@
+.tours {
+  background-color: #FFF2E3;
+  padding-top: 118px;
+}
+.tours > h1 {
+  margin-left: 298px;
+  margin-bottom: 49px;
+  font-size: 72px;
+  line-height: 91px;
+}
+.map-box {
+  width: 1321px;
+  height: 684px;
+  display: flex;
+  margin-left: 298px;
+  margin-bottom: 136px;
+}
+#map {
+  width: 829px;
+}
+.map-aside {
+  width: 495px;
+}
+.map-pic {
+  height: 474px;
+}
+.map-text {
+  height: 210px;
+  background-color: #fff;
+}
+#text-wrapper {
+  width: 435px;
+  height: 153px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  vertical-align: middle;
+}
+.map-text h6 {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  line-height: 45px;
+  text-align: left;
+}
+#map, .map-aside .map-text, .map-pic {
+  outline: 1px solid red;
+}

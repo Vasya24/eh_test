@@ -1,0 +1,152 @@
+.pricing {
+  background-color: #FFF2E3;
+  padding-top: 102px;
+  padding-left: 298px;
+}
+.pricing > h1 {
+  margin-bottom: 62px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 90.79px;
+}
+.grids {
+  display: flex;
+  width: 1324px;
+  /*justify-content: space-between;*/
+}
+.pricing-header {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  line-height: 29.26px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.pricing-desciptor {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  line-height: 29.26px;
+  font-weight: 400;
+  margin-bottom: 43px;
+}
+.fh-pricing > .pricing-desciptor {
+  visibility: hidden;
+}
+
+ .pricing-grid {
+   margin-bottom: 42px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 0 0;
+   grid-template-areas:
+    "price price price fullday fullday fullday fullday"
+    "price price price range range range range"
+    "week week week week week week week";
+ }
+.price {
+  grid-area: price;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 73.14px;
+  margin-bottom: 14px;
+}
+.fullday {
+  grid-area: fullday;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 24.38px;
+  font-weight: 700;
+}
+.range {
+  grid-area: range;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.week {
+  grid-area: week;
+  display: flex;
+  justify-content: space-evenly;
+}
+.day {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.day.active {
+  color: #ECCD2C;
+}
+.booking-grid {
+  display: flex;
+  flex-direction: column;
+}
+.calendars {
+  display: flex;
+  margin-bottom: 51px;
+}
+label[for="grid-arrival"], label[for="grid-departure"] {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 11px;
+}
+#arrival-wrapper {
+  margin-right: 25px;
+}
+#grid-arrival, #grid-departure {
+  display: block;
+  width: 170px;
+  height: 35px;
+  background-color: #c4c4c4;
+  border: none;
+  border-radius: 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 13px;
+}
+#types > h6 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#types input[type="radio"] {
+display: block;
+  appearance: none;
+}
+#types input[type="radio"] + label{
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(75, 75, 75, 0.4);
+  cursor: pointer;
+
+}
+#types input[type="radio"]:checked + label{
+color: #000000;
+}
+#radios {
+  margin-bottom: 60px;
+}
+#types input[type="submit"] {
+  display: block;
+  width: 234px;
+  height: 40px;
+  border: none;
+  border-radius: 32px;
+  background-color: #F6E96D;
+  padding: 9px 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}

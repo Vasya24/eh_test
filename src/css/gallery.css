@@ -1,0 +1,35 @@
+.gallery {
+  padding-top: 143px;
+  padding-left: 298px;
+}
+.gallery > h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 91px;
+  margin-bottom: 94px;
+}
+.pictures-wrapper {
+  width: 1324px;
+  height: 640px;
+  margin-bottom: 30px;
+}
+.main-pics {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 640px;
+}
+#video-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+#video-wrapper video {
+  height: 310px;
+  width: 652px;
+  margin-bottom: 20px;
+}
+.swiper-container {
+  margin-bottom: 220px;
+}
+
