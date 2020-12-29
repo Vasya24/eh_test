@@ -1,8 +1,12 @@
 .gallery {
   padding-top: 143px;
-  padding-left: 298px;
 }
-.gallery > h1 {
+.gallery-container {
+  width: 1324px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.gallery-container > h1 {
   font-size: 72px;
   font-weight: 700;
   line-height: 91px;

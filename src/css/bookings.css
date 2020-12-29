@@ -63,33 +63,46 @@ label[for="familyhouse"], label[for="guestroom"] {
   font-weight: 600;
   margin-top: 24px;
 }
-.booking-grid {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-bottom: 73px;
-}
-.icon-block {
+
+.bookings-content {
   display: flex;
   flex-direction: column;
+}
+.row {
+  display: flex;
+  /*text-align: center;*/
   align-items: center;
-
 }
-.icon-block:nth-child(1) {
-  width: 428px;
-  padding-top: 113px;
+.row:nth-child(even) {
+  justify-content: flex-end;
 }
-.icon-block img {
-  margin-bottom: 40px;
+.row-descriptor {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-.icon-block h1 {
+.row-descriptor > h1 {
   font-size: 72px;
   line-height: 91px;
-  font-weight: bold;
-  margin-bottom: 30px;
 }
-.icon-block p {
+.row-descriptor > p {
   font-family: Montserrat, sans-serif;
   font-size: 24px;
   line-height: 29px;
-  text-align: center;
+}
+
+@media only screen and (min-width : 1224px) {
+  .big-image img {
+    width: 840px
+  }
+  .row-descriptor > h1 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  .row-descriptor > p {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
 }

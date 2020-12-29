@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/conditions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/contacts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/pricing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/tours.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/activities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/activities.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/bookings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bookings.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/pricing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +74,8 @@
       <workItem from="1608712970855" duration="4845000" />
       <workItem from="1608791138381" duration="7441000" />
       <workItem from="1608875736308" duration="5762000" />
-      <workItem from="1608989229428" duration="24749000" />
+      <workItem from="1608989229428" duration="38467000" />
+      <workItem from="1609224068982" duration="11578000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -180,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608759590239</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Basic HTML done">
+      <created>1609154403464</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609154403465</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +207,7 @@
     <MESSAGE value="Re-do entire project" />
     <MESSAGE value="Stopped at activities section" />
     <MESSAGE value="Commit for no reason" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit for no reason" />
+    <MESSAGE value="Basic HTML done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic HTML done" />
   </component>
 </project>
