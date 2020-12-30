@@ -28,7 +28,7 @@ h1 {
   font-family: "Amatic SC", sans-serif;
 }
 
-section {
+section, .footer {
   max-width: 100vw;
   overflow: hidden;
 }

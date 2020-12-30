@@ -52,14 +52,14 @@
   font-family: Montserrat, sans-serif;
   font-weight: 300;
   font-size: 60px;
-  line-height: 73.14px;
+  line-height: 73px;
   margin-bottom: 14px;
 }
 .fullday {
   grid-area: fullday;
   font-family: Montserrat, sans-serif;
   font-size: 20px;
-  line-height: 24.38px;
+  line-height: 24px;
   font-weight: 700;
 }
 .range {
@@ -153,4 +153,112 @@ color: #000000;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .pricing-container {
+    width: 980px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .pricing-container > h1 {
+    margin-bottom: 62px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+  }
+  .pricing-header {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 17px;
+  }
+  .pricing-desciptor {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 43px;
+  }
+  .price {
+    grid-area: price;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 73px;
+    margin-bottom: 14px;
+  }
+  .fullday {
+    grid-area: fullday;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+  .range {
+    grid-area: range;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .day {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+  }
+  #types input[type="radio"] + label{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(75, 75, 75, 0.4);
+    cursor: pointer;
+
+  }
+  #grid-arrival, #grid-departure {
+    display: block;
+    width: 170px;
+    height: 35px;
+    background-color: #c4c4c4;
+    border: none;
+    border-radius: 32px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 13px;
+  }
+  #types > h6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  #types input[type="radio"] + label{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(75, 75, 75, 0.4);
+    cursor: pointer;
+
+  }
+  #types input[type="submit"] {
+    display: block;
+    width: 234px;
+    height: 40px;
+    border: none;
+    border-radius: 32px;
+    background-color: #F6E96D;
+    padding: 9px 30px;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .gr-pricing > h6 {
+    margin-bottom: 67px;
+  }
 }

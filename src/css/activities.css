@@ -46,3 +46,22 @@
   line-height: 22px;
 
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .cards {
+      max-width: 980px;
+      margin-left: auto;
+      padding: 0;
+      margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .cards {
+    max-width: 652px;
+    padding-left: 50px;
+  }
+  .card:nth-last-child(1) {
+    margin-bottom: 330px;
+  }
+}
