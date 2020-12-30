@@ -55,3 +55,32 @@
     width: 980px;
   }
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .contacts-wrapper {
+    width: 750px;
+    flex-direction: column;
+  }
+  .contacts-text {
+    width: 100%;
+    text-align: left;
+  }
+  .contacts-text > h1 {
+    text-align: center;
+  }
+  .contacts-text > input {
+    width: 132px;
+    height: 42px;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+    position: relative;
+    top: 21px;
+    z-index: 9;
+    left: 40%;
+  }
+  #map-contacts {
+    width: 100%;
+  }
+
+}

@@ -8,11 +8,9 @@
   margin-right: auto ;
 }
 .tours-wrapper > h1 {
-
   margin-bottom: 49px;
   font-size: 72px;
   line-height: 91px;
-
 }
 .map-box {
   height: 684px;
@@ -32,6 +30,14 @@
 .map-text {
   height: 210px;
   background-color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
 }
 #text-wrapper {
   width: 435px;
@@ -46,7 +52,7 @@
   font-family: Montserrat, sans-serif;
   font-size: 32px;
   line-height: 45px;
-  text-align: left;
+  text-align: center;
 }
 #map, .map-aside .map-text, .map-pic {
   outline: 1px solid red;
@@ -58,5 +64,46 @@
   }
   #map {
     width: 485px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .tours-wrapper {
+    width: auto;
+  }
+  .tours-wrapper > h1 {
+    text-align: center;
+  }
+  .map-box {
+    width: 750px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+  }
+  #map {
+    width: auto;
+    height: 477px;
+  }
+  .map-aside {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 300px;
+    width: 100%;
+  }
+  .map-pic {
+    background-repeat: no-repeat;
+    width: 35%
+  }
+  .map-pic, .map-text {
+    height: 100%;
+  }
+  .map-text {
+    text-align: center;
+    width: 65%
+  }
+  .map-text, .map-text h6 {
+    font-size: 10px;
+    line-height: 12px;
   }
 }

@@ -263,6 +263,17 @@ color: #000000;
   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .pricing-container {
+    max-width: 750px
+  }
+  .pricing-container > h1 {
+    text-align: center;
+  }
+  .grids {
+    flex-direction: column;
+  }
+  .booking-grid {
+    margin-bottom: 73px;
+  }
 }
