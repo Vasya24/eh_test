@@ -107,3 +107,49 @@
     line-height: 12px;
   }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .tours {
+    padding-top: 55px;
+  }
+  .tours-wrapper {
+    width: auto;
+  }
+  .tours-wrapper > h1 {
+    text-align: center;
+    font-size: 33px;
+    line-height: 42px;
+  }
+  .map-box {
+    width: 280px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+  }
+  #map {
+    width: auto;
+    height: 280px;
+  }
+  .map-aside {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 300px;
+    width: 100%;
+  }
+  .map-pic {
+    background-repeat: no-repeat;
+    width: 35%
+  }
+  .map-pic, .map-text {
+    height: 100%;
+  }
+  .map-text {
+    text-align: center;
+    width: 65%
+  }
+  .map-text, .map-text h6 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

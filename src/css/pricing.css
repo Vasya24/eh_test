@@ -277,3 +277,64 @@ color: #000000;
     margin-bottom: 73px;
   }
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .pricing-container {
+    max-width: 280px
+  }
+  .pricing-container > h1 {
+    text-align: center;
+    font-size: 33px;
+    line-height: 42px;
+  }
+  .grids {
+    flex-direction: column;
+  }
+  .fh-pricing h5, .gr-pricing h5, .fh-pricing h6, .gr-pricing h6 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .price {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .fullday {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .range {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .day {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .booking-grid {
+    margin-bottom: 73px;
+  }
+  label[for="grid-arrival"], label[for="grid-departure"] {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  #grid-arrival, #grid-departure {
+    width: 109px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  #types h6 {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  #types input[type="radio"] + label {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  #types input[type="submit"] {
+    width: 135px;
+    height: 22px;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 0;
+  }
+}

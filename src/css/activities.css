@@ -65,3 +65,31 @@
     margin-bottom: 330px;
   }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .activities > h1 {
+    font-size: 33px;
+    line-height: 42px;
+  }
+  .cards {
+    width: 280px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    height: 225px;
+  }
+  .card:nth-last-child(n+2) {
+    margin-right: 9px;
+  }
+  .card, .card-image {
+    width: 131px;
+  }
+  .card-body > h5, .card-body > p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .card:nth-last-child(1) {
+    margin-bottom: 97px;
+  }
+}

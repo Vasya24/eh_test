@@ -99,3 +99,24 @@
     display: none
   }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .footer-wrapper {
+    flex-direction: column;
+    height: auto;
+    width: 280px;
+    text-align: center;
+    align-items: center;
+  }
+  .socials-wrapper {
+    margin-bottom: 30px;
+  }
+  .footer-wrapper > img {
+    width: 74px;
+    height: 50px;
+    margin-bottom: 17px;
+  }
+  .footer-form {
+    display: none
+  }
+}
