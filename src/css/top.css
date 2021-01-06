@@ -26,11 +26,34 @@ nav {
   font-weight: 400;
   color: #fff;
 }
-
+.header-link:hover {
+  border-bottom: 4px solid #F6E96D;
+}
 .header-link:nth-last-child(n+2) {
   margin-right: 28px;
 }
-
+.dropdown {
+  height: 0;
+  position: absolute;
+  top: 90px;
+  background-color: rgba(57, 57, 57, 0.54);
+  transition: height 1s linear;
+  overflow: hidden;
+}
+.dropdown.active {
+  height: auto;
+  padding: 27px 30px 29px 29px;
+}
+.dropdown a {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+}
+.dropdown a:nth-last-child(n+2) {
+  margin-bottom: 17px;
+}
 .address {
   width: 424px;
   font-family: Montserrat, sans-serif;

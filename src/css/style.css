@@ -18,6 +18,9 @@
   font-family: "Caveat";
   src: url("fonts/caveat.ttf");
 }
+body {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
 }

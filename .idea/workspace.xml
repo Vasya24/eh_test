@@ -3,15 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/activities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/activities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bookings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bookings.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/conditions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/conditions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/contacts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/tours.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/tours.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/swiper.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,10 @@
       <workItem from="1608791138381" duration="7441000" />
       <workItem from="1608875736308" duration="5762000" />
       <workItem from="1608989229428" duration="38467000" />
-      <workItem from="1609224068982" duration="40056000" />
+      <workItem from="1609224068982" duration="40276000" />
+      <workItem from="1609670908594" duration="451000" />
+      <workItem from="1609699205092" duration="281000" />
+      <workItem from="1609847177998" duration="6681000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609359261956</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="DONE until no bugs found">
+      <created>1609366096339</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609366096339</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +267,7 @@
     <MESSAGE value="GH-Pages modified right way now" />
     <MESSAGE value="Conditions section done for iPads (portrait)" />
     <MESSAGE value="iPads layout done. Mobiles left" />
-    <option name="LAST_COMMIT_MESSAGE" value="iPads layout done. Mobiles left" />
+    <MESSAGE value="DONE until no bugs found" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE until no bugs found" />
   </component>
 </project>

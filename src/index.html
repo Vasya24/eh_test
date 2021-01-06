@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/tours.css">
   <link rel="stylesheet" href="css/contacts.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
   <title>Eternalhost Test</title>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAardMbn-kbfBLBF7hlB8XLWmMJdv_GvnM&callback=initMap&libraries=&v=weekly"></script>
 </head>
@@ -24,11 +26,18 @@
   <img src="css/img/logo.png" alt="logo">
   <nav>
     <a href="#" class="header-link">Агроусадьба Беларуси</a>
-    <a href="#" class="header-link">Комфортные условия</a>
-    <a href="#" class="header-link">Стоимость проживания</a>
-    <a href="#" class="header-link">Фотогалерея</a>
-    <a href="#" class="header-link">Экскурсии</a>
-    <a href="#" class="header-link">Контакты</a>
+    <div class="dropdown">
+      <a href="#">Деревянные дома</a>
+      <a href="#">Заповедная территория</a>
+      <a href="#">Русская баня</a>
+      <a href="#">Пристань с катерами</a>
+      <a href="#">Отдых на любой вкус</a>
+    </div>
+    <a href="#conditions" class="header-link">Комфортные условия</a>
+    <a href="#pricing" class="header-link">Стоимость проживания</a>
+    <a href="#gallery" class="header-link">Фотогалерея</a>
+    <a href="#tours" class="header-link">Экскурсии</a>
+    <a href="#contacts" class="header-link">Контакты</a>
   </nav>
   <div class="address">
     <span>Гомельская область</span><br />
@@ -50,7 +59,7 @@
   <input type="button" class="tobook" value="Забронировать">
     <div class="transfer"></div>
 </section>
-<section class="bookings">
+<section class="bookings" id="bookings">
   <header>
     <h1>Забронировать</h1>
     <form id="book">
@@ -121,7 +130,7 @@
     </div>
   </div>
 </section>
-<section class="activities">
+<section class="activities" id="activities">
   <h1>Отдых на любой вкус</h1>
   <div class="cards">
     <div class="card">
@@ -190,7 +199,7 @@
     </div>
   </div>
 </section>
-<section class="conditions">
+<section class="conditions" id="conditions">
   <div class="conditions-table">
     <div class="left">
       <h1>Комфортные условия</h1>
@@ -243,7 +252,7 @@
     <img src="css/img/conditions/4.png" alt="4">
   </div>
 </section>
-<section class="pricing">
+<section class="pricing" id="pricing">
   <div class="pricing-container">
   <h1>Стоимость проживания</h1>
   <div class="grids">
@@ -345,7 +354,7 @@
   </div>
   </div>
 </section>
-<section class="gallery">
+<section class="gallery" id="gallery">
   <div class="gallery-container">
   <h1>Фотогалерея</h1>
   <div class="pictures-wrapper">
@@ -365,6 +374,9 @@
       <img src="css/img/gallery/7.png" alt="7" class="swiper-slide">
       <img src="css/img/gallery/8.png" alt="8" class="swiper-slide">
       <img src="css/img/gallery/9.png" alt="9" class="swiper-slide">
+      <img src="css/img/gallery/7.png" alt="7" class="swiper-slide">
+      <img src="css/img/gallery/8.png" alt="8" class="swiper-slide">
+      <img src="css/img/gallery/9.png" alt="9" class="swiper-slide">
     </div>
     <!-- Add Arrows -->
     <div class="swiper-button-next"></div>
@@ -377,7 +389,7 @@
   </div>
 
 </section>
-<section class="tours">
+<section class="tours" id="tours">
   <div class="tours-wrapper">
   <h1>Экскурсии</h1>
 <div class="map-box">
@@ -392,7 +404,7 @@
 </div>
   </div>
 </section>
-<section class="contacts">
+<section class="contacts" id="contacts">
   <div class="contacts-wrapper">
 <div class="contacts-text">
   <h1>Контакты</h1>
@@ -435,7 +447,17 @@
   </div>
 </footer>
 <script src="js/index.js" async></script>
-<script src="js/swiper.js" async></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script async>
+  var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});</script>
 <script src="js/maps.js" async></script>
 </body>
 </html>
