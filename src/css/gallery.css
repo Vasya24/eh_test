@@ -70,6 +70,9 @@
   .pictures-wrapper {
     display: none;
   }
+  .swiper-container {
+    margin-bottom: 50px;
+  }
   .mobile-video-button {
     display: flex;
     width: 264px;
@@ -110,6 +113,22 @@
   .pictures-wrapper {
     display: none;
   }
+  .swiper-container {
+     margin-bottom: 50px;
+   }
+  .mobile-video-button {
+    display: flex;
+    width: 264px;
+    height: 72px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    margin-bottom: 47px;
+    justify-content: space-evenly;
+  }
+
   .mobile-video-button > img {
     width: 48px;
     height: 48px;

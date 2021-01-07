@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/contacts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1609670908594" duration="451000" />
       <workItem from="1609699205092" duration="281000" />
       <workItem from="1609847177998" duration="13895000" />
-      <workItem from="1610029119043" duration="8959000" />
+      <workItem from="1610029119043" duration="9464000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610041376315</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Top for mobiles done">
+      <created>1610042907234</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610042907234</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +293,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="A lot of things done" />
     <MESSAGE value="Layout done. Positioning left to do." />
     <MESSAGE value="Positioning for 1920px width done" />
     <MESSAGE value="Warning commit" />
@@ -311,6 +317,7 @@
     <MESSAGE value="Top for portrait tablets done (now for sure (SURE))" />
     <MESSAGE value="Bookings for portrait tablets done" />
     <MESSAGE value="Everything for portrait tablets done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Everything for portrait tablets done" />
+    <MESSAGE value="Top for mobiles done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Top for mobiles done" />
   </component>
 </project>
