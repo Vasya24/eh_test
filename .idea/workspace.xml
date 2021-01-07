@@ -4,6 +4,7 @@
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1609670908594" duration="451000" />
       <workItem from="1609699205092" duration="281000" />
       <workItem from="1609847177998" duration="13895000" />
-      <workItem from="1610029119043" duration="7546000" />
+      <workItem from="1610029119043" duration="8959000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -259,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610041259730</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Everything for portrait tablets done">
+      <created>1610041376315</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610041376315</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +286,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Linter's warnings fixed" />
     <MESSAGE value="A lot of things done" />
     <MESSAGE value="Layout done. Positioning left to do." />
     <MESSAGE value="Positioning for 1920px width done" />
@@ -303,6 +310,7 @@
     <MESSAGE value="Top for portrait tablets done (now for sure)" />
     <MESSAGE value="Top for portrait tablets done (now for sure (SURE))" />
     <MESSAGE value="Bookings for portrait tablets done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bookings for portrait tablets done" />
+    <MESSAGE value="Everything for portrait tablets done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything for portrait tablets done" />
   </component>
 </project>
