@@ -40,7 +40,6 @@ const mobAside = document.querySelector('.mobile-aside');
 const burger = document.querySelector('.burger');
 const close = document.getElementById('close-aside');
 
-
 burger.onclick = () => {
   mobAside.classList.add('active');
   let nodes= document.querySelector('.top').children;
