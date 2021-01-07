@@ -35,3 +35,27 @@ for (let anchor of anchors) {
   })
 }
 
+//Mobile menu rolling in and out
+const mobAside = document.querySelector('.mobile-aside');
+const burger = document.querySelector('.burger');
+const close = document.getElementById('close-aside');
+
+
+burger.onclick = () => {
+  mobAside.classList.add('active');
+  let nodes= document.querySelector('.top').children;
+  for (let i=1; i<nodes.length; i++) {
+    nodes[i].classList.add('hidden')
+  }
+}
+
+close.onclick = () => {
+  mobAside.classList.remove('active');
+  let nodes= document.querySelector('.top').children;
+  for (let i=1; i<nodes.length; i++) {
+    nodes[i].classList.remove('hidden')
+  }
+}
+
+
+

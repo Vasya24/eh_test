@@ -13,6 +13,18 @@
   height: 71px;
 }
 
+.mobile-aside {
+  position: absolute;
+  right: 0;
+  visibility: hidden;
+  width: 0;
+  transition: width .5s linear;
+}
+.mobile-aside.active {
+  width: 100vw;
+  visibility: visible
+}
+
 nav {
   margin-left: 220px;
   margin-right: 58px;
@@ -403,7 +415,8 @@ nav {
   }
     .burger {
       display: block;
-      width: 28px
+      width: 28px;
+      cursor: pointer;
     }
   .burger hr {
     height: 2px;
