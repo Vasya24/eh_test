@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1609670908594" duration="451000" />
       <workItem from="1609699205092" duration="281000" />
       <workItem from="1609847177998" duration="13895000" />
-      <workItem from="1610029119043" duration="12677000" />
+      <workItem from="1610029119043" duration="12859000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -316,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610045361987</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Let it be so.">
+      <created>1610046735937</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610046735937</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +340,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Linter fixed" />
     <MESSAGE value="Let's try this" />
     <MESSAGE value="Re-do entire project" />
     <MESSAGE value="Stopped at activities section" />
@@ -360,6 +364,7 @@
     <MESSAGE value="Fix some more imperfections" />
     <MESSAGE value="Trying to fix an overflow issue" />
     <MESSAGE value="Noch einmal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Noch einmal" />
+    <MESSAGE value="Let it be so." />
+    <option name="LAST_COMMIT_MESSAGE" value="Let it be so." />
   </component>
 </project>
