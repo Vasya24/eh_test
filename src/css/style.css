@@ -18,7 +18,7 @@
   font-family: "Caveat";
   src: url("fonts/caveat.ttf");
 }
-body {
+body, html {
   overflow-x: hidden;
 }
 a {
