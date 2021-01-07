@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595c4548-9e0d-49fe-98c9-a85c8d6cd44c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/top.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <workItem from="1609670908594" duration="451000" />
       <workItem from="1609699205092" duration="281000" />
       <workItem from="1609847177998" duration="13895000" />
-      <workItem from="1610029119043" duration="10384000" />
+      <workItem from="1610029119043" duration="10700000" />
     </task>
     <task id="LOCAL-00001" summary="Continue from where I stopped in previous project">
       <created>1608214119842</created>
@@ -287,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610043596114</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Fix some more imperfections">
+      <created>1610044391696</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610044391696</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +312,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Warning commit" />
     <MESSAGE value="Bookings done" />
     <MESSAGE value="Seems like done" />
     <MESSAGE value="Linter fixed" />
@@ -331,6 +336,7 @@
     <MESSAGE value="Top for mobiles done" />
     <MESSAGE value="Everything is done" />
     <MESSAGE value="Hope to fix a bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hope to fix a bug" />
+    <MESSAGE value="Fix some more imperfections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some more imperfections" />
   </component>
 </project>
