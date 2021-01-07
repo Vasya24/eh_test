@@ -538,7 +538,7 @@ nav {
     justify-content: space-between;
     padding-left: 28px;
     padding-right: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 15vh;
   }
   .burger {
     display: block;
@@ -559,7 +559,7 @@ nav {
     word-wrap: break-word;
     text-align: center;
     color: #fff;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 15vh auto;
   }
   .mobile-aside {
     z-index: 9;
@@ -653,13 +653,38 @@ nav {
   }
   .top > h2 {
     font-family: Caveat, sans-serif;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 14px;
     text-align: center;
-    width: 280px;
+    width: 162px;
     color: #fff;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 82px;
+    margin-bottom: 15vh;
   }
+  .top h2 > img {
+    width: 16px;
+    height: 22px;
+    position: relative;
+    top: 15px;
+    animation: bounce 1.5s ease-in infinite;
+  }
+  @keyframes bounce {
+    0% {
+      top: 15px
+    }
+    25% {
+      top: 5px;
+    }
+    50% {
+      top: 25px;
+    }
+    75% {
+      top: 20px;
+    }
+    100% {
+      top: 15px;
+    }
+  }
+
 }
