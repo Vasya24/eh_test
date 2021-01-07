@@ -561,16 +561,21 @@ nav {
     margin: 0 auto 15vh auto;
   }
   .mobile-aside {
-    z-index: 9;
+    /*z-index: 9;*/
     background-color: rgba(21, 21, 21, 0.78);
     height: 100vh;
-    width: 100vw;
     position: absolute;
-    margin-left: 100vw;
-    transition: margin-left .5s linear;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
   .mobile-aside.active {
-    margin-left: 0;
+    width: 100vw;
+    display: block;
+    opacity: 1;
   }
   #close-aside {
     position: absolute;

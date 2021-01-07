@@ -18,9 +18,6 @@
   font-family: "Caveat";
   src: url("fonts/caveat.ttf");
 }
-body, html {
-  overflow-x: hidden;
-}
 a {
   text-decoration: none;
 }
@@ -37,5 +34,4 @@ h1 {
 section, .footer {
   max-width: 100vw;
   overflow-x: hidden;
-  -ms-overflow-x: hidden;
 }
