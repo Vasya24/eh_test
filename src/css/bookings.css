@@ -134,19 +134,27 @@ label[for="familyhouse"], label[for="guestroom"] {
     flex-direction: column-reverse;
   }
   .row-descriptor {
-    max-height: 300px;
+    max-height: 200px;
     flex-wrap: wrap;
     align-items: normal;
   }
   .big-image, .big-image > img {
-    width: 200px;
+    width: 100vw;
   }
   .row-descriptor > h1 {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 26px;
   }
   .row-descriptor > h1, .row-descriptor > p {
-    width: 330px;
+    width: 384px;
+  }
+  .row-descriptor > p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .small-image img {
+    height: 200px;
   }
   .row:nth-last-child(1) {
     margin-bottom: 30px;
