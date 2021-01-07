@@ -70,9 +70,6 @@
   .pictures-wrapper {
     display: none;
   }
-  .swiper-container {
-    display: none;
-  }
   .mobile-video-button {
     display: flex;
     width: 264px;
@@ -114,9 +111,7 @@
   .pictures-wrapper {
     display: none;
   }
-  .swiper-container {
-    display: none;
-  }
+
   /*.mobile-video-button {*/
   /*  display: flex;*/
   /*  width: 264px;*/
