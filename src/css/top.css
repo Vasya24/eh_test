@@ -79,6 +79,18 @@ nav {
   text-align: center;
   color: #fff;
   margin: 0 auto 135px auto;
+  animation: glowing 1.5s ease-in infinite;
+}
+@keyframes glowing {
+  0% {
+    filter: drop-shadow(0 0 0 #fff);
+  }
+  50% {
+    filter: drop-shadow(0 0 15px #fff);
+  }
+  100% {
+    filter: drop-shadow(0 0 0 #fff);
+  }
 }
 
 .top > h1 > span {
@@ -101,7 +113,26 @@ nav {
   height: 66px;
   position: relative;
   top: 55px;
+  animation: bounce 1.5s ease-in infinite;
 }
+@keyframes bounce {
+  0% {
+    top: 55px
+  }
+  25% {
+    top: 45px;
+  }
+  50% {
+    top: 65px;
+  }
+  75% {
+    top: 50px;
+  }
+  100% {
+    top: 55px;
+  }
+}
+
 
 .tobook {
   display: none;
@@ -229,6 +260,28 @@ nav {
   .header-link:nth-last-child(n+2) {
     margin-right: 28px;
   }
+  .dropdown {
+    height: 0;
+    position: absolute;
+    top: 90px;
+    background-color: rgba(57, 57, 57, 0.54);
+    transition: height 1s linear;
+    overflow: hidden;
+  }
+  .dropdown.active {
+    height: auto;
+    padding: 27px 30px 29px 29px;
+  }
+  .dropdown a {
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+  }
+  .dropdown a:nth-last-child(n+2) {
+    margin-bottom: 17px;
+  }
   .address {
     width: 324px;
     font-size: 10px;
@@ -281,6 +334,28 @@ nav {
   }
   .header-link:nth-last-child(n+2) {
     margin-right: 7px;
+  }
+  .dropdown {
+    height: 0;
+    position: absolute;
+    top: 90px;
+    background-color: rgba(57, 57, 57, 0.54);
+    transition: height 1s linear;
+    overflow: hidden;
+  }
+  .dropdown.active {
+    height: auto;
+    padding: 17px 20px 19px 19px;
+  }
+  .dropdown a {
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 9px;
+    line-height: 14px;
+    color: #fff;
+  }
+  .dropdown a:nth-last-child(n+2) {
+    margin-bottom: 12px;
   }
   .address {
     width: 224px;
@@ -347,9 +422,70 @@ nav {
     color: #fff;
     margin: 0 auto 135px auto;
   }
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .mobile-aside {
+    z-index: 9;
+    background-color: rgba(21, 21, 21, 0.78);
+    height: 100vh;
+    width: 100vw;
+  }
+  #close-aside {
+    position: absolute;
+    right: 22px;
+    top: 15px;
+    cursor: pointer;
+  }
+  .address.mobile {
+    display: block;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    max-width: 442px;
+    margin: 0 auto 26px auto;
+    padding-top: 27px;
+  }
+  .address.mobile span:nth-child(1) {
+    font-weight: 700
+  }
+  .header-link.mobile {
+    max-width: 247px;
+    padding-left: 14px;
+    display: block;
+    margin: auto auto;
+    padding-bottom: 13px;
+    padding-top: 12px;
+    border-bottom: 1px solid black;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .header-link.mobile:hover {
+    border-color: #F6E96D;
+    color: #F6E96D;
+  }
+  .dropdown.mobile {
+    position: relative;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(21, 21, 21, 0.1);
+    transition: height 1s linear;
+    overflow: hidden;
+    width: 214px;
+  }
+  .dropdown.mobile a {
+    border-bottom: 1px solid black;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 14px;
+    margin-left: 20px;
+  }
+  .dropdown.mobile a:hover {
+    border-color: #F6E96D;
+    color: #F6E96D;
+  }
   .tobook {
     display: block;
     height: 40px;
@@ -378,6 +514,7 @@ nav {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
   .top > header img {
     width: 59px;
     height: 43px;
