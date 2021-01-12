@@ -12,8 +12,9 @@
   width: 110px;
   height: 71px;
 }
-
-
+.mobile-aside {
+  display: none;
+}
 
 nav {
   margin-left: 220px;
