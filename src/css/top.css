@@ -146,8 +146,9 @@ nav {
   .top > header {
     width: 1838px;
   }
-
-
+  .mobile-aside {
+    display: none;
+  }
   .address {
     width: 424px;
     font-family: Montserrat, sans-serif;
@@ -194,6 +195,9 @@ nav {
   }
 }
 @media (min-width: 1440px) and (max-width: 1599px) {
+  .mobile-aside {
+    display: none;
+  }
   .top > header {
     width: 1324px;
     padding-left: 28px;
@@ -246,6 +250,9 @@ nav {
 }
 
 @media only screen and (min-width : 1224px) {
+  .mobile-aside {
+    display: none;
+  }
   .top > header {
     width: 1200px;
     padding-left: 14px;
